@@ -1,4 +1,4 @@
-/* mobile version */
+/* mobile Galaxy S9 version */
 
 body{
     height: 800px;
@@ -13,7 +13,7 @@ body{
 header{
     text-align: center;
     color: rgb(149, 2, 0 );
-    font-family: 
+    font-size: 20px;
 }
 
 .project__nav{
@@ -24,6 +24,7 @@ header{
     margin: 5px;
     padding: 5px;
     background-color: white;
+    font-family: Arial, cursive;
 }
 
 a{ 
@@ -39,14 +40,15 @@ a{
 h2{
     color: rgb(149, 2, 0 );
     border: thick double black;
-    background-color: rgb(234, 219, 143);
+    background-color: white;
     height: 55px;
+    font-family: Arial, sans-serif;
 }
 
 h3{
     color: purple;
     border: thick double black;
-    background-color: rgb(234, 219, 143);
+    background-color: white;
     height: 55px;
 }
 
@@ -61,7 +63,7 @@ h3{
 }
 
 .project__articleh{
-    height: 500px;
+    height: 315px;
     width: 335px;
     margin: 2px;
     padding: 3px;
@@ -80,7 +82,7 @@ h3{
 }
 .project__articlep{
     display: block;
-    height: 600px;
+    height: 450px;
     width: 335px;
     margin: 2px;
     padding: 3px;
@@ -130,6 +132,7 @@ footer{
 
     .project__nav{
         width: 150%;
+     
     }
 
     .container{
