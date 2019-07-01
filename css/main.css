@@ -45,6 +45,10 @@ h2{
     font-family: Arial, sans-serif;
 }
 
+.project__imageflottante{
+    float: left;
+}
+
 h3{
     color: purple;
     border: thick double black;
