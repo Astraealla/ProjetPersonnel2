@@ -53,6 +53,10 @@ h2{
     float: left;
 }
 
+.singe, .tigre, .chat, .cheval{
+    width: 16%;
+}
+
 h3{
     color: #800000;
     border: thick double black;
