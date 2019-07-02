@@ -3,7 +3,8 @@
 body{
     height: 800px;
     width: 360px;
-    background-color:  rgb(222, 155,255);
+    background-color: #835C3B;
+    font-family: Arial, cursive;
 }
 
 .project{
@@ -12,8 +13,7 @@ body{
 
 header{
     text-align: center;
-    color: rgb(149, 2, 0 );
-    font-size: 20px;
+    
 }
 
 .project__nav{
@@ -21,10 +21,11 @@ header{
     justify-content: space-between;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    border-color: #151B54;
     margin: 5px;
     padding: 5px;
     background-color: white;
-    font-family: Arial, cursive;
+    
 }
 
 a{ 
@@ -38,9 +39,10 @@ a{
 }
 
 h2{
-    color: rgb(149, 2, 0 );
+    color: #800000;
     border: thick double black;
     border-radius: 10px 5px 5px 10px;
+    border-color: #151B54;
     background-color: white;
     height: 55px;
     font-family: Arial, sans-serif;
@@ -52,8 +54,9 @@ h2{
 }
 
 h3{
-    color: purple;
+    color: #800000;
     border: thick double black;
+    border-color: #151B54;
     background-color: white;
     height: 55px;
 }
@@ -65,7 +68,8 @@ h3{
     padding: 3px;
     border-right: 1px solid black;
     border-left: 1px solid black;
-    background-color: rgb(234, 219, 143);
+    border-color: #151B54;
+    background-color: #FFFFC2;
     box-shadow: 3px 3px 0px purple;
 }
 
@@ -76,7 +80,9 @@ h3{
     padding: 3px;
     border-right: 1px solid black;
     border-left: 1px solid black;
-    background-color: rgb(234, 219, 143);
+    border-color: #151B54;
+    background-color: #FFFFC2;
+    box-shadow: 5px 5px 0px purple;
 }
 
 .container-modifier{
@@ -95,7 +101,9 @@ h3{
     padding: 3px;
     border-right: 1px solid black;
     border-left: 1px solid black;
-    background-color: rgb(234, 219, 143);
+    border-color: #151B54;
+    background-color: #FFFFC2;
+    box-shadow: 5px 5px 0px purple;
 }
 
 .project__aside{
@@ -105,7 +113,8 @@ h3{
     padding: 5px;
     border-right: 1px solid black;
     border-left: 1px solid black;
-    background-color: rgb(234, 219, 143);
+    border-color: #151B54;
+    background-color: #FFFFC2;
     box-shadow: 2px 2px 0px purple;
 }
 
@@ -114,6 +123,7 @@ h3{
     justify-content: center;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    border-color: #151B54;
     margin: 5px;
     padding: 5px;
     background-color: white;
@@ -128,7 +138,14 @@ footer{
     height: 300px;
 }
 
+.fab{
+    display: flex;
+}
 
+.fa-instagram, .fa-twitter{
+    justify-content: space-between;
+    flex-direction: row;
+}
 
 /* tablette version */
 
@@ -175,6 +192,10 @@ footer{
     footer{
         width: 150%;
     }
+
+    .fa-instagram, .fa-twitter{
+        width: 100%;
+    }
 }
 
 /* computer version */
@@ -186,7 +207,7 @@ footer{
     }
 
     header{
-        width: 185%;
+        width: 200%;
     
     }
 
@@ -200,7 +221,7 @@ footer{
     }
     
     .project__article{
-        width: 185%;
+        width: 200%;
     }
 
     .project__articleh{
@@ -222,6 +243,10 @@ footer{
 
     footer{
         width: 130%;
+    }
+
+    .fa-instagram, .fa-twitter{
+        width: 142%;
     }
 }
 
