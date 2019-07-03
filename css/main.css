@@ -2,13 +2,8 @@
 
 body{
     height: 800px;
-    width: 360px;
     background-color: #835C3B;
     font-family: Arial, cursive;
-}
-
-.project{
-    width: 100%;
 }
 
 header{
@@ -68,7 +63,6 @@ h3{
 
 .project__article{
     height: 500px;
-    width: 190px;
     margin: 2px;
     padding: 3px;
     border-right: 1px solid black;
@@ -80,7 +74,6 @@ h3{
 
 .project__articleh{
     height: 315px;
-    width: 335px;
     margin: 2px;
     padding: 3px;
     border-right: 1px solid black;
@@ -101,7 +94,6 @@ h3{
 .project__articlep{
     display: block;
     height: 450px;
-    width: 335px;
     margin: 2px;
     padding: 3px;
     border-right: 1px solid black;
@@ -113,7 +105,6 @@ h3{
 
 .project__aside{
     height: 300px;
-    width: 130px;
     margin: 5px;
     padding: 5px;
     border-right: 1px solid black;
@@ -167,120 +158,5 @@ footer{
     justify-content: space-between;
     flex-direction: row;
 }
-
-/* tablette version */
-
-@media screen and (min-width:400px) and (max-width:800px) {
-
-    .project{
-        width: 150%;
-        margin: 5%;
-    }
-
-    header{
-        width: 150%;
-    }
-
-    .project__nav{
-        width: 150%;
-     
-    }
-
-    .container{
-        width: 150%;
-    }
-
-    .project__article{
-        width: 150%;
-    }
-
-    .project__articleh{
-        width: 150%;
-    }
-
-    .project__articlep{
-        width: 150%;
-    }
-
-    .project__aside{
-        width: 150%;
-    }
-
-    .project__reseaux{
-        width: 100%;
-    }
-
-    
-    .contact__body{
-       width: 150%;
-    }
-
-    footer{
-        width: 150%;
-    }
-
-    .fa-instagram, .fa-twitter{
-        width: 100%;
-    }
-}
-
-/* computer version */
-
-@media screen and (min-width:800px){
-    .project{
-        width: 185%;
-        margin: 20%;
-    }
-
-    header{
-        width: 200%;
-    
-    }
-
-    
-    .project__nav{
-        width: 185%;
-    }
-
-    .container{
-        width: 185%;
-    }
-    
-    .project__article{
-        width: 200%;
-    }
-
-    .project__articleh{
-        width: 185%;
-    }
-
-    .project__articlep{
-        width: 185%;
-    }
-
-    .project__aside{
-        width: 185%;
-        margin-left: 5%;
-    }
-
-    .project__reseaux{
-        width: 142%;
-    }
-
-    
-    .contact__body{
-        width: 185%;
-    }
-
-    footer{
-        width: 130%;
-    }
-
-    .fa-instagram, .fa-twitter{
-        width: 142%;
-    }
-}
-
-
 
 
