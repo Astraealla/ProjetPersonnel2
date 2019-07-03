@@ -44,9 +44,9 @@ h2{
     border-radius: 10px 5px 5px 10px;
     border-color: #151B54;
     background-color: white;
-    height: 55px;
+    height: 50px;
     font-family: Arial, sans-serif;
-
+    padding-top: 25px;
 }
 
 .project__imageflottante{
@@ -62,7 +62,8 @@ h3{
     border: thick double black;
     border-color: #151B54;
     background-color: white;
-    height: 55px;
+    height: 50px;
+    padding-top: 25px;
 }
 
 .project__article{
