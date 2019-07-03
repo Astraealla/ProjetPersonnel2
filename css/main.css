@@ -8,7 +8,7 @@ body{
 }
 
 .project{
-    width: auto;
+    width: 100%;
 }
 
 header{
@@ -195,7 +195,7 @@ footer{
     }
 
     .project__articlep{
-        width: 750%;
+        width: 150%;
     }
 
     .project__aside{
@@ -203,7 +203,7 @@ footer{
     }
 
     .project__reseaux{
-        width: 150%;
+        width: 100%;
     }
 
     footer{
