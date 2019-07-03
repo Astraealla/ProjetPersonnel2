@@ -139,6 +139,18 @@ h3{
     margin: 10px;
 }
 
+.pseudo, .mail, .message{
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+}
+
+.envoie{
+    text-align: center;
+    margin-left: 110px;
+}
+
+
 footer{
     height: 300px;
 }

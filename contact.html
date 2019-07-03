@@ -32,22 +32,23 @@
                 <p>Si vous voulez des informations complémentaires, n'hésitez pas à me contacter via les réseaux sociaux ou à utiliser ce formulaire. </p>
 
                 <form method="POST" action="#" class="project__form">
-                    <div>
-                        <label for="name">Nom ou Pseudo :</label>
+                    <div class="pseudo">
+                        <label for="name">Nom/Pseudo :</label>
                         <input id="name" type="text" name="nom" placeholder="Entrez votre nom ou pseudo"/>
                     </div>
 
-                    <div>
+                    <div class="mail">
                         <label for="mail"> Adresse Mail :</label>
                         <input id="mail" type="text" name="mail" placeholder="Entrez votre adresse mail" />
                     </div>
+                    
+                        <div class="message">
+                            <label for="message"> Votre Message :</label>
+                            <textarea placeholder="Ecrivez votre message ici"></textarea>
+                        </div>
+                
 
-                    <div>
-                        <label for="message"> Message :</label>
-                        <textarea placeholder="Ecrivez votre message ici"></textarea>
-                    </div>
-
-                    <div>
+                    <div class="envoie">
                         <input type="submit" value="Envoyer le formulaire"/>
                     </div>
                 </form>
