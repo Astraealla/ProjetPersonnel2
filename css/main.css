@@ -139,6 +139,10 @@ h3{
     margin: 10px;
 }
 
+.contact__body{
+    background-color: #FFFFC2;
+}
+
 .pseudo, .mail, .message{
     padding: 20px;
     margin: 25px;
@@ -206,6 +210,11 @@ footer{
         width: 100%;
     }
 
+    
+    .contact__body{
+       width: 150%;
+    }
+
     footer{
         width: 150%;
     }
@@ -256,6 +265,11 @@ footer{
 
     .project__reseaux{
         width: 142%;
+    }
+
+    
+    .contact__body{
+        width: 185%;
     }
 
     footer{
